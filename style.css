@@ -1,0 +1,38 @@
+body{
+    background-image:url(dogpark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   align-items: center;
+   text-align: center;
+   padding-top: 30px;
+   height: 500px;
+}
+
+.page1{
+    font-family:'Averia Libre'; 
+    background-image: url(dog2.jpeg);
+    
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration:double;
+    display: inline-block;
+      border-radius:20% ;
+    font-size: large;
+    height: 150px;
+    width:200px;
+    
+    
+}
+
+#start{
+    background-color: rgb(252, 164, 0);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#Exit{
+    background-color: rgb(248, 201, 70);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+

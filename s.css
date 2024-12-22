@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(Road.jpg);
+    display: grid;
+    place-items: center;
+    height: 1200hv;
+    position:relative;
+    top: -40%;
+    z-index: -9;
+    
+}
+
+#road{
+    background-image: url(r.jpg);
+    background-image: repeating-radial-gradient(1200vh);
+    height: 1200vh;
+    width: 1200px; 
+    position:relative;
+    place-items: center;
+    top: -40%;
+    z-index: -9;
+    animation:roadmove 4s infinite linear;
+      
+   }
+#personimg2{
+    display: grid;
+    place-items:center;
+    position:relative;
+    width:100px;
+    height: 100px;
+    left:-500px;
+    z-index: 1001;
+    border-radius: 50px;
+    animation:personimg2 infinite linear 10s;
+
+}
+#score{
+    position:absolute;
+    top:20px;
+    left:20px;
+    font-size: 2rem;
+    padding:5px;
+    background-color: antiquewhite;
+    color:black;
+    border-radius: 15px;
+}
+#Treat{position:absolute;
+    top:70px;
+    left:20px;
+    font-size: 2rem;
+    padding:5px;
+    background-color: antiquewhite;
+    color:black;
+    border-radius: 15px;
+
+}
+
+
+#cat2{
+    /* display: grid; */
+    /* place-items:center; */
+     position:absolute;
+    width:100px;
+    height: 100px;
+   /* left: -90px; */
+   /* right: 0px; */
+    /* z-index: 1001; */
+    border-radius: 50px;
+    animation:cat2 infinite linear 15s;
+} 
+#bone{
+    display: grid;
+    place-items:center;
+    position:relative;
+    width:100px;
+    height: 100px;
+    left:300px;
+    z-index: 1001;
+    border-radius: 50px;
+    animation:bone infinite linear 20s;
+}
+#food{
+    display: grid;
+    place-items:center;
+    position:relative;
+    width:100px;
+    height: 100px;
+    left:-300px;
+    z-index: 1001;
+    border-radius: 50px;
+    animation:food infinite linear 50s;
+}
+#mydog{
+   width:300px;
+    height: 200px;
+    position:relative;
+    top:40vh;
+    
+}
+
+@keyframes personimg2{
+    0%{
+        top:-30vh;
+
+    }
+    100%{
+        top:100vh;
+    }
+}
+
+@keyframes cat2{
+    0%{
+        top:-60vh;
+
+    }
+    100%{
+        top:100vh;
+    }
+}
+
+@keyframes food{
+    0%{
+        top:-200vh;
+
+    }
+    100%{
+        top:100vh;
+    }
+}
+@keyframes bone{
+    0%{
+        top:-70vh;
+
+    }
+    100%{
+        top:100vh;
+    }
+}
+@keyframes roadmove{
+    0%{bakground-position :0 0;}
+    100%{
+        background-position: 0 100vh;
+    }
+}
+
+
